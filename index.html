@@ -4,54 +4,54 @@
 @media(prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f5f5f7;--fg:#1a1a2a;--card:#fff;--acc:#6366f1;--acc2:#818cf8;--dim:#999;--green:#059669;--red:#dc2626;--border:#e5e5ea;color-scheme:light}}
 :root[data-theme="light"]{--bg:#f5f5f7;--fg:#1a1a2a;--card:#fff;--acc:#6366f1;--acc2:#818cf8;--dim:#999;--green:#059669;--red:#dc2626;--border:#e5e5ea;color-scheme:light}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:0 max(16px,env(safe-area-inset-left,0px)) 0 max(16px,env(safe-area-inset-right,0px));max-width:500px;margin:0 auto;-webkit-user-select:none;user-select:none;padding-block:0 env(safe-area-inset-bottom,0px);font-size:17px}
-.hdr{text-align:center;padding:28px 0 20px}
-.hdr h1{font-size:28px;margin-bottom:6px}
-.hdr .sub{font-size:15px;color:var(--dim)}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:0 max(12px,env(safe-area-inset-left,0px)) 0 max(12px,env(safe-area-inset-right,0px));max-width:500px;margin:0 auto;-webkit-user-select:none;user-select:none;padding-block:0 env(safe-area-inset-bottom,0px);font-size:20px}
+.hdr{text-align:center;padding:24px 0 16px}
+.hdr h1{font-size:34px;margin-bottom:6px}
+.hdr .sub{font-size:18px;color:var(--dim)}
 .tabs{display:flex;gap:4px;padding:0 0 14px;position:sticky;top:0;background:var(--bg);z-index:10}
-.tab{flex:1;padding:14px;border:none;background:var(--card);color:var(--dim);border-radius:12px;font-size:16px;cursor:pointer;font-weight:600}
+.tab{flex:1;padding:14px;border:none;background:var(--card);color:var(--dim);border-radius:12px;font-size:19px;cursor:pointer;font-weight:600}
 .tab.on{background:var(--acc);color:#fff}
 .cd{background:var(--card);border-radius:14px;padding:16px;margin-bottom:10px}
-.empty{text-align:center;padding:40px 0;color:var(--dim);font-size:16px}
-.cat-hdr{font-size:18px;font-weight:700;margin:20px 0 10px;padding-left:4px;display:flex;align-items:center;gap:8px}
+.empty{text-align:center;padding:40px 0;color:var(--dim);font-size:19px}
+.cat-hdr{font-size:23px;font-weight:700;margin:20px 0 10px;padding-left:4px;display:flex;align-items:center;gap:8px}
 .cat-hdr:first-child{margin-top:8px}
 
 /* add form */
 .add-row{margin-bottom:14px}
-.add-row input,.add-row select{background:var(--card);border:1px solid var(--border);color:var(--fg);border-radius:12px;padding:12px 14px;font-size:16px;outline:none;width:100%}
+.add-row input,.add-row select{background:var(--card);border:1px solid var(--border);color:var(--fg);border-radius:12px;padding:14px 14px;font-size:19px;outline:none;width:100%}
 .add-row select{appearance:none;-webkit-appearance:none}
 .add-row input:focus,.add-row select:focus{border-color:var(--acc)}
 .add-r2{display:flex;gap:8px;margin-top:8px}
-.add-r2 input[type=number]{width:80px;flex:none;text-align:center;font-size:18px;font-weight:700}
-.add-r2 button{flex:1;background:var(--acc);color:#fff;border:none;border-radius:12px;padding:14px;font-size:17px;font-weight:700;cursor:pointer}
+.add-r2 input[type=number]{width:70px;flex:none;text-align:center;font-size:22px;font-weight:700}
+.add-r2 button{flex:1;background:var(--acc);color:#fff;border:none;border-radius:12px;padding:14px;font-size:20px;font-weight:700;cursor:pointer}
 
 /* item card */
 .item{background:var(--card);border-radius:14px;padding:16px 18px;margin-bottom:10px}
 .item-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
-.item-name{font-size:18px;font-weight:700}
-.item-count{font-size:17px;font-weight:700}
+.item-name{font-size:22px;font-weight:700}
+.item-count{font-size:21px;font-weight:700}
 .item-bar{height:12px;background:var(--border);border-radius:6px;overflow:hidden;margin-bottom:10px}
 .item-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .3s}
 .item-actions{display:flex;gap:8px;justify-content:flex-end;align-items:center}
-.item-actions button{border:none;border-radius:10px;padding:10px 18px;font-size:15px;cursor:pointer;font-weight:700}
-.btn-plus{background:var(--acc);color:#fff;font-size:16px;padding:12px 22px}
+.item-actions button{border:none;border-radius:10px;padding:12px 18px;font-size:19px;cursor:pointer;font-weight:700}
+.btn-plus{background:var(--acc);color:#fff;font-size:20px;padding:14px 22px}
 .btn-minus{background:var(--border);color:var(--fg)}
-.btn-del{background:transparent;color:var(--red);font-size:20px;padding:8px 10px}
-.badge{display:inline-block;background:var(--green);color:#fff;font-size:13px;padding:3px 10px;border-radius:10px;margin-left:8px;font-weight:700}
+.btn-del{background:transparent;color:var(--red);font-size:22px;padding:8px 10px}
+.badge{display:inline-block;background:var(--green);color:#fff;font-size:16px;padding:4px 12px;border-radius:10px;margin-left:8px;font-weight:700}
 
 /* achieved */
 .ach-card{background:var(--card);border-radius:14px;padding:16px 18px;margin-bottom:10px;border:1px solid rgba(52,211,153,0.2)}
-.ach-card .item-name{color:var(--green);font-size:18px}
-.ach-desc{font-size:15px;color:var(--green);margin-top:6px;font-weight:600}
-.ach-date{font-size:13px;color:var(--dim);margin-top:4px}
-.ach-cat{font-size:12px;color:var(--dim);margin-top:2px}
+.ach-card .item-name{color:var(--green);font-size:22px}
+.ach-desc{font-size:19px;color:var(--green);margin-top:6px;font-weight:600}
+.ach-date{font-size:16px;color:var(--dim);margin-top:4px}
+.ach-cat{font-size:14px;color:var(--dim);margin-top:2px}
 
 /* confirm dialog */
 .overlay{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:100}
 .dialog{background:var(--card);border-radius:16px;padding:28px;max-width:320px;width:90%;text-align:center}
-.dialog p{font-size:17px;margin-bottom:20px}
+.dialog p{font-size:20px;margin-bottom:20px}
 .dialog .btns{display:flex;gap:10px;justify-content:center}
-.dialog .btns button{border:none;border-radius:12px;padding:12px 28px;font-size:16px;font-weight:700;cursor:pointer}
+.dialog .btns button{border:none;border-radius:12px;padding:14px 28px;font-size:19px;font-weight:700;cursor:pointer}
 .dialog .btn-cancel{background:var(--border);color:var(--fg)}
 .dialog .btn-confirm{background:var(--red);color:#fff}
 </style>
@@ -131,7 +131,7 @@ function App(){
       <div className="add-row">
         <input value={name} onChange={e=>setName(e.target.value)} placeholder="항목 이름 (예: 영어 교재 3회독)" onKeyDown={e=>e.key==="Enter"&&addItem()}/>
         <div className="add-r2" style={{marginTop:8}}>
-          <select value={cat} onChange={e=>setCat(e.target.value)} style={{flex:1,fontSize:16}}>
+          <select value={cat} onChange={e=>setCat(e.target.value)} style={{flex:1,fontSize:19}}>
             {CATS.map(c=><option key={c.id} value={c.id}>{c.label}</option>)}
           </select>
           <input type="number" value={target} onChange={e=>setTarget(Math.max(1,parseInt(e.target.value)||1))} min="1"/>
@@ -142,7 +142,7 @@ function App(){
       {active.length===0&&(
         <div className="empty">
           아직 항목이 없습니다<br/>
-          <span style={{fontSize:14,marginTop:6,display:"inline-block"}}>위에서 반복할 항목을 추가하세요</span>
+          <span style={{fontSize:17,marginTop:6,display:"inline-block"}}>위에서 반복할 항목을 추가하세요</span>
         </div>
       )}
 
@@ -151,7 +151,7 @@ function App(){
         if(catItems.length===0)return null;
         return(
           <div key={c.id}>
-            <div className="cat-hdr"><span style={{color:c.color}}>{c.label}</span><span style={{fontSize:14,color:"var(--dim)",fontWeight:400}}>{catItems.length}개</span></div>
+            <div className="cat-hdr"><span style={{color:c.color}}>{c.label}</span><span style={{fontSize:17,color:"var(--dim)",fontWeight:400}}>{catItems.length}개</span></div>
             {catItems.map(it=>{
               const pct=Math.min(100,Math.round(it.current/it.target*100));
               return(
@@ -167,7 +167,7 @@ function App(){
                     <button className="btn-plus" onClick={()=>inc(it.id)}>+1 완료</button>
                   </div>
                   {it.logs.length>0&&(
-                    <div style={{marginTop:8,fontSize:13,color:"var(--dim)"}}>
+                    <div style={{marginTop:8,fontSize:16,color:"var(--dim)"}}>
                       최근: {it.logs.slice(-3).map(fmtD).join(" → ")}
                     </div>
                   )}
@@ -185,7 +185,7 @@ function App(){
       {achieved.length===0&&(
         <div className="empty">
           달성 기록이 없습니다<br/>
-          <span style={{fontSize:14,marginTop:6,display:"inline-block"}}>항목을 완료하면 여기에 기록됩니다</span>
+          <span style={{fontSize:17,marginTop:6,display:"inline-block"}}>항목을 완료하면 여기에 기록됩니다</span>
         </div>
       )}
 
@@ -194,7 +194,7 @@ function App(){
         if(catAch.length===0)return null;
         return(
           <div key={c.id}>
-            <div className="cat-hdr"><span style={{color:c.color}}>{c.label}</span><span style={{fontSize:14,color:"var(--dim)",fontWeight:400}}>{catAch.length}개 달성</span></div>
+            <div className="cat-hdr"><span style={{color:c.color}}>{c.label}</span><span style={{fontSize:17,color:"var(--dim)",fontWeight:400}}>{catAch.length}개 달성</span></div>
             {catAch.map(it=>(
               <div key={it.id} className="ach-card">
                 <div className="item-top">
@@ -204,12 +204,12 @@ function App(){
                 <div className="ach-desc">✅ {it.name}을(를) 숙달했음</div>
                 <div className="ach-date">🏆 {fmtFull(it.achieved)} 달성</div>
                 {it.logs.length>0&&(
-                  <div style={{marginTop:6,fontSize:13,color:"var(--dim)"}}>
+                  <div style={{marginTop:6,fontSize:16,color:"var(--dim)"}}>
                     기록: {it.logs.map(fmtD).join(" → ")}
                   </div>
                 )}
                 <div style={{marginTop:10,display:"flex",gap:8,justifyContent:"flex-end"}}>
-                  <button className="btn-minus" onClick={()=>setItems(p=>p.map(x=>x.id===it.id?{...x,current:0,logs:[],achieved:null}:x))} style={{fontSize:13}}>리셋</button>
+                  <button className="btn-minus" onClick={()=>setItems(p=>p.map(x=>x.id===it.id?{...x,current:0,logs:[],achieved:null}:x))} style={{fontSize:16}}>리셋</button>
                   <button className="btn-del" onClick={()=>setDelId(it.id)}>🗑️</button>
                 </div>
               </div>
@@ -247,7 +247,7 @@ function App(){
         </div>
       )}
 
-      <div style={{textAlign:"center",padding:"24px 0 40px",fontSize:13,color:"var(--dim)"}}>
+      <div style={{textAlign:"center",padding:"24px 0 40px",fontSize:16,color:"var(--dim)"}}>
         반복숙달 · 총 {items.length}개 항목
       </div>
     </div>
