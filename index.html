@@ -54,6 +54,37 @@ body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSyst
 .dialog .btns button{border:none;border-radius:12px;padding:14px 28px;font-size:19px;font-weight:700;cursor:pointer}
 .dialog .btn-cancel{background:var(--border);color:var(--fg)}
 .dialog .btn-confirm{background:var(--red);color:#fff}
+
+/* 접힌 화면 (Galaxy Fold ~320-380px) */
+@media(max-width:420px){
+body{font-size:26px !important;padding:0 8px !important}
+.hdr h1{font-size:42px !important}
+.hdr .sub{font-size:22px !important}
+.tab{font-size:24px !important;padding:16px !important}
+.empty{font-size:24px !important}
+.empty span{font-size:20px !important}
+.cat-hdr{font-size:28px !important}
+.cat-hdr span{font-size:20px !important}
+.add-row input,.add-row select{font-size:24px !important;padding:16px 12px !important}
+.add-r2 input[type=number]{font-size:28px !important;width:65px !important}
+.add-r2 button{font-size:26px !important;padding:16px !important}
+.item{padding:18px !important}
+.item-name{font-size:28px !important}
+.item-count{font-size:26px !important}
+.item-bar{height:16px !important}
+.item-actions button{font-size:24px !important;padding:14px 16px !important}
+.btn-plus{font-size:26px !important;padding:16px 20px !important}
+.btn-del{font-size:28px !important}
+.btn-minus{font-size:24px !important}
+.badge{font-size:20px !important;padding:5px 14px !important}
+.ach-card .item-name{font-size:28px !important}
+.ach-desc{font-size:24px !important}
+.ach-date{font-size:20px !important}
+.ach-cat{font-size:18px !important}
+.dialog{max-width:95% !important}
+.dialog p{font-size:26px !important}
+.dialog .btns button{font-size:24px !important;padding:16px 24px !important}
+}
 </style>
 
 <div id="root"></div>
